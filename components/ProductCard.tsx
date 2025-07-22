@@ -1,7 +1,7 @@
 import React from 'react';
 import { TouchableOpacity, Text, Image, View, StyleSheet } from 'react-native';
 import { Star } from 'lucide-react-native';
-import { Product } from 'C:/Exelon/Shopping-App/contexts/CartContext';
+import { Product } from '../contexts/CartContext';
 
 interface ProductCardProps {
   product: Product;

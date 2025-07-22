@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, Image, TouchableOpacity, StyleSheet } from 'react-native';
 import { Minus, Plus, X } from 'lucide-react-native';
-import { CartItem, useCart } from 'C:/Exelon/Shopping-App/contexts/CartContext';
+import { CartItem, useCart } from '@/contexts/CartContext';
 
 interface CartItemCardProps {
   item: CartItem;

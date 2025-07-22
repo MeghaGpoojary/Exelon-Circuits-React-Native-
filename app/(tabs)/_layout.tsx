@@ -1,7 +1,9 @@
 import React from 'react';
 import { Tabs } from 'expo-router';
 import { Home, ShoppingCart, Bell, User } from 'lucide-react-native';
-import { useCart } from 'C:/Exelon/Shopping-App/contexts/CartContext';
+import { useCart
+  
+ } from '@/contexts/CartContext';
 import { View, Text, StyleSheet } from 'react-native';
 
 export default function TabLayout() {

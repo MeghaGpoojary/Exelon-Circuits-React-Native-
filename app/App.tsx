@@ -2,9 +2,9 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import ProductDetailScreen from 'C:/Exelon/Shopping-App/app/product/[id]';
-import CartScreen from 'C:/Exelon/Shopping-App/app/(tabs)/cart';
-import { Product } from 'C:/Exelon/Shopping-App/types/product';
+import ProductDetailScreen from '../app/product/[id]';
+import CartScreen from './(tabs)/cart';
+import { Product } from '../types/product';
 
 export type RootStackParamList = {
   Home: undefined;
