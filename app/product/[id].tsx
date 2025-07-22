@@ -13,8 +13,8 @@ import {
 import { StatusBar } from 'expo-status-bar';
 import { ArrowLeft, ShoppingCart, Star, Heart } from 'lucide-react-native';
 import { router, useLocalSearchParams } from 'expo-router';
-import { products } from 'C:/Exelon/Shopping-App/data/products';
-import { useCart } from 'C:/Exelon/Shopping-App/contexts/CartContext';
+import { products } from '../../data/products';
+import { useCart } from '../../contexts/CartContext';
 
 export default function ProductDetailScreen() {
   const { id } = useLocalSearchParams<{ id: string }>();
