@@ -1,8 +1,8 @@
 import { useEffect } from 'react';
 import { Stack } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
-import { useFrameworkReady } from 'C:/Exelon/Shopping-App/hooks/useFrameworkReady';
-import { CartProvider } from 'C:/Exelon/Shopping-App/contexts/CartContext';
+import { useFrameworkReady } from '../hooks/useFrameworkReady';
+import { CartProvider } from '../contexts/CartContext';
 
 export default function RootLayout() {
   useFrameworkReady();
